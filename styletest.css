@@ -5,7 +5,7 @@
   position: relative;
   display: inline-block;
   z-index: 2;
-  top:1750px;
+  top:540px;
 
 }
 
@@ -28,7 +28,7 @@ body {
 
 
 
-.left {
+/*.left {
 display: inline-block;
 border-left: 400px solid purple;
 border-bottom: 40px solid transparent;
@@ -36,7 +36,7 @@ border-top:  20px solid transparent;
 margin-bottom: 200px;
 position: relative;
 
-}
+}*/
 #six{
   border-left: 500px solid purple;
   margin-bottom: 300px;
@@ -48,7 +48,7 @@ border-right: 400px solid purple;
 
 
 }
-.right{
+/*.right{
   float:right;
   display: inline-block;
   border-right: 600px solid purple;
@@ -56,7 +56,7 @@ border-bottom: 50px solid transparent;
 border-top:  50px solid transparent;
 margin-bottom: 200px;
 position: relative;
-}
+}*/
 
 #eight{
   margin-bottom: 800px;
@@ -64,7 +64,7 @@ position: relative;
 
 #main{
   border: 2px solid white;
-  height: 20%;
+  height: 50%;
   width: 75%;
   margin-left: 200px;
 position: sticky;
@@ -72,9 +72,11 @@ overflow: hidden;
 display: inline-block;
 
 }
+
 img{
 transform: rotate(90deg);
-display: inline-block;
-bottom: 1200px;
+/*display: inline-block;
+*/bottom: 1200px;
 position: relative;
+display: none;
 }
