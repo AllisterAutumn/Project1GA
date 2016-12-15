@@ -1,0 +1,33 @@
+#square {
+  height: 50px;
+  width: 50px;
+  background-color: orange;
+  position: relative;
+}
+
+#laser {
+height: 30px;
+width: 10px;
+background-color: red;
+position: relative;
+
+}
+
+body {
+  background-color: grey;
+}
+
+.path {
+background-color: white;
+height: 70px;
+
+}
+
+#one {
+  width: 100px;
+}
+#two{
+  width: 1000px;
+}
+#three {width: 100px;
+margin-left: 900px;}
