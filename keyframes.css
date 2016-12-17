@@ -89,7 +89,7 @@
         
         @keyframes off {
             0% {
-                width: 0px
+                width: 50px
             }
             100% {
                 width: 0px;

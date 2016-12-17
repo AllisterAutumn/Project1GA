@@ -46,7 +46,7 @@
 
 .off {
     animation: off 2s infinite;
-    background-color: yellow;
+    background-color: black;
     animation-direction: alternate-reverse;
     margin-left: 90px;
 }
@@ -54,7 +54,7 @@
 .red {
     animation: spin 3s linear infinite;
     background-color: #820312;
-    margin-left: 80px;
+    margin-left: 90px;
 }
 
 .left {
@@ -92,4 +92,18 @@
     animation: stomp 3.5s linear infinite;
     display: inline-block;
     z-index: -2
+}
+
+#footbox {
+    animation: stomp 3s linear infinite;
+    position: relative;
+    height: 400px;
+    width: 400px;
+}
+
+button {
+    margin-left: 500px;
+    background-color: black;
+    color: red;
+    position: relative;
 }

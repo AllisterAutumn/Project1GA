@@ -6,7 +6,9 @@ $(document).ready(function() {
         console.log('yo');
         document.getElementById("main").scrollTop += 1300;
         //Act on the event
+        alert('Stay Strong!')
     });
+
 
 
 })
