@@ -66,7 +66,15 @@ $(document).ready(function() {
                 }
                 break;
         }
+        // if player.scrollTop is within 3% from the top of the box thing, then scroll with jquery by x pixels
 
+        /* let square = document.getElementById('square');
+
+ if (square.offset().top === $('#main').offset().top - 100) {
+
+     document.getElementById("main").scrollTop -= 200;
+ }
+*/
 
 
 
