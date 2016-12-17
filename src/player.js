@@ -40,7 +40,10 @@ $(document).ready(function() {
                         duration: 0,
                         easing: 'linear'
                     })
+
                     document.getElementById("main").scrollTop -= 20;
+
+
                 }
                 break;
 

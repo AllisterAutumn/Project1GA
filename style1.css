@@ -7,8 +7,10 @@
 }
 
 body {
+    /* background-image: url(fire2.gif);*/
     background-color: black;
     margin-top: 0;
+    background-size: cover;
 }
 
 #main {
