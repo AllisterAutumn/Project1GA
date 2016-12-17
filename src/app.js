@@ -7,7 +7,11 @@ $(document).ready(function() {
     let squareBottom = $(square).offset().top + $(square).outerHeight();
 
 
-    /*  $(square).outerHeight();
+
+
+})
+
+/*  $(square).outerHeight();
   let squareWidth = $(square).outerWidth();
   let squareX = squareSide + squareWidth;
   let squareY = squareTop + squareHeight
@@ -15,11 +19,9 @@ $(document).ready(function() {
 
 
 
-    /*$(document).keydown(function() {
-        console.log(squareBottom);
-        console.log(squareLeft);
-        console.log(squareTop);
-        console.log(squareRight);
-    })*/
-
-})
+/*$(document).keydown(function() {
+    console.log(squareBottom);
+    console.log(squareLeft);
+    console.log(squareTop);
+    console.log(squareRight);
+})*/

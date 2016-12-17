@@ -30,12 +30,13 @@
 
 .green {
     background-color: green;
-    animation: spinmove 2s linear infinite;
+    animation: spinmove 1s linear infinite;
+    animation-direction: alternate-reverse;
     position: relative;
 }
 
 .blue {
-    animation: move 2s linear infinite;
+    animation: move 1s linear infinite;
     margin-left: 20px;
     animation-direction: reverse;
     background-color: blue;
@@ -51,7 +52,7 @@
 }
 
 .red {
-    animation: spin 5s linear infinite;
+    animation: spin 3s linear infinite;
     background-color: red;
     margin-left: 80px;
 }
@@ -88,7 +89,7 @@
     width: 300px;
     position: relative;
     top: -200px;
-    animation: stomp 4s linear infinite;
+    animation: stomp 3s linear infinite;
     display: inline-block;
     z-index: -2
 }

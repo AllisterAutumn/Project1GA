@@ -25,9 +25,7 @@ $(document).ready(function() {
 
     let one = new Enemy('one', 'green', 'clockwise')
     console.log(one);
-    //console.log(one.setPosition($('#one').offset().left, $('#one').offset().top))
-    //console.log($('#one').offset().left);
-    //console.log($('#one').offset().t);
+
 
     console.log(one.setPosition($('#one').offset().left, $('#one').offset().top));
 
@@ -38,6 +36,16 @@ $(document).ready(function() {
         console.log(foot);
     })
 })
+
+
+
+
+
+
+
+//console.log(one.setPosition($('#one').offset().left, $('#one').offset().top))
+//console.log($('#one').offset().left);
+//console.log($('#one').offset().t);
 
 /*let one = new Enemy('one', 'green', 'clockwise' );
 console.log(one.setPosition($('#one').offset().left, $('#one').offset().top));

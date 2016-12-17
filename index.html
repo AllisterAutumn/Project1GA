@@ -11,8 +11,9 @@
     <title></title>
 </head>
 
-<body onload="anchor">
+<body onload="scrollDiv()">
     <div id="main">
+        <button onclick="scrollDiv()">Click me to scroll!</button>
         <img src="foot.png" id="foot" alt="">
         <div></div>
         <div class="left"></div>
@@ -73,6 +74,12 @@
         </div>
         <div id="square"></div>
     </div>
+    <script type="text/javascript">
+    function scrollDiv() {
+        document.getElementById("main").scrollTop += 1300;
+        // document.getElementById("main").scrollLeft += 100;
+    }
+    </script>
 </body>
 <link rel="stylesheet" type="text/css" href="style1.css">
 <link rel="stylesheet" type="text/css" href="enemies.css">
