@@ -1,7 +1,6 @@
 $(document).ready(function() {
 
-    /*$('.left').animate({bottom: "-=100px" }, 5000);
-    $('.right').animate({bottom: "-=100px"}, 5000);*/
+
 
     class Enemy {
         constructor(id, color, animation) {

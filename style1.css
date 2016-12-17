@@ -1,14 +1,12 @@
 #square {
     height: 50px;
     width: 50px;
-    background-color: orange;
     position: relative;
     display: inline-block;
 }
 
 body {
-    /* background-image: url(fire2.gif);*/
-    background-color: black;
+    background-color: #444244;
     margin-top: 0;
     background-size: cover;
 }
@@ -27,3 +25,10 @@ body {
     margin-bottom: 50px;
     position: relative;
 }
+
+button {
+    bottom: 1000px;
+    position: relative;
+}
+
+cursor {}
