@@ -1,0 +1,27 @@
+#square {
+    height: 50px;
+    width: 50px;
+    background-color: orange;
+    position: relative;
+    display: inline-block;
+}
+
+body {
+    background-color: black;
+    margin-top: 0;
+}
+
+#main {
+    height: 700px;
+    width: 75%;
+    margin-left: 200px;
+    overflow: scroll;
+    display: inline-block;
+    overflow-x: hidden;
+}
+
+.row {
+    height: 100px;
+    margin-bottom: 50px;
+    position: relative;
+}

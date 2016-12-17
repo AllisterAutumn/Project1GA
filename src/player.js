@@ -1,49 +1,80 @@
-$(document).ready(function(){
-$(document).keydown(function(key) {
-switch(key.which) {
-  case 37:
-  //left
-$('#square').animate({ left: "-=30px" }, .1);
-//right
-    break;
-  case 39 :
-$('#square').animate({ left: "+=30px" }, .1);
-    break;
-//top
-  /* case 40 :
-$('#square').animate({ bottom: "-=30px" }, .1);
-    break;
-
-     case 38 :
-$('#square').animate({ top: "-=30px" }, .1);
-    break;*/
-    //bottom
-
-/*case 32 :
-$('#square').css({
-  height: '80px',
-  width: '80px'
-});
-break;*/
+$(document).ready(function() {
 
 
-//     case 32 :
-// $('#laser').animate({ bottom: "-=500px" }, 200);
-// $('#laser').animate({ bottom: "+=500px" }, 200);
-//     break;
-}
-
-});
-
-/*$(document).keyup(function() {
-$('#square').css({
-  height: '50px',
-  width: '50px'
-});
-});*/
+    let Hero = {
+        id: "square",
+        color: "orange",
+        movement: true,
+        x: null,
+        y: null,
+        Position(x, y) {
 
 
+            this.x = x;
+
+            this.y = y;
+            return x + " " + y
+        }
+    }
+
+    console.log(Hero);
+    console.log(Hero.Position($('#square').offset().left, $('#square').offset().top));
+    console.log(Hero);
+
+    $(document).keydown(function(key) {
+        switch (key.which) {
+            case 37:
+                //left
+                if ($('#square').offset().left >= $('#main').offset().left) {
+                    $('#square').velocity({ left: "-=30px" }, {
+                        duration: 0,
+                        easing: 'linear'
+                    })
+                };
+                break;
+
+            case 38:
+                if ($('#square').offset().top >= $('#main').offset().top) {
+                    $('#square').velocity({ top: "-=30px" }, {
+                        duration: 0,
+                        easing: 'linear'
+                    })
+                };
+                break;
+
+            case 39:
+                if ($('#square').offset().left + $('#square').outerWidth() <= $('#main').offset().left + $('#main').outerWidth()) {
+                    $('#square').velocity({ left: "+=30px" }, {
+                        duration: 0,
+                        easing: 'linear'
+                    })
+                };
+                break;
+
+            case 40:
+                if ($('#square').offset().top + $('#square').outerHeight() <= $('#main').offset().top + $('#main').outerHeight) {
+                    $('#square').velocity({ top: "+=30px" }, {
+                        duration: 0,
+                        easing: 'linear'
+                    });
+                }
+                break;
+        }
+        // if player.scrollTop is within 3% from the top of the box thing, then scroll with jquery by x pixels
+        let foot = new Enemy('foot', 'brown', 'stomp');
+
+        foot.setPosition($('#foot').offset().left, $('#foot').offset().top);
+        console.log(foot);
+        /*let square = $('#square');
+let squareLeft = $(square).offset().left;
+let squareTop = $(square).offset().top;
+let squareRight = $(square).offset().left + $(square).outerWidth();
+let squareBottom = $(square).offset().top + $(square).outerHeight();
+console.log(squareBottom);
+console.log(squareLeft);
+console.log(squareTop);
+console.log(squareRight);
+*/
+
+    })
 })
-
-
-

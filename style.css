@@ -4,8 +4,7 @@
   background-color: orange;
   position: relative;
   display: inline-block;
-  z-index: 2;
-  top:1750px;
+  top:50px;
 
 }
 
@@ -21,9 +20,6 @@ body {
   background-color: black;
   margin-top: 0;
 }
-
-
-
 
 
 
@@ -56,15 +52,16 @@ border-bottom: 50px solid transparent;
 border-top:  50px solid transparent;
 margin-bottom: 200px;
 position: relative;
+
 }
 
 #eight{
-  margin-bottom: 800px;
+  margin-bottom: 9000px;
 }
 
 #main{
   border: 2px solid white;
-  height: 20%;
+  height: 700px;
   width: 75%;
   margin-left: 200px;
 position: sticky;
@@ -72,9 +69,9 @@ overflow: hidden;
 display: inline-block;
 
 }
-img{
+/*img{
 transform: rotate(90deg);
 display: inline-block;
 bottom: 1200px;
 position: relative;
-}
+}*/

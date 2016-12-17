@@ -1,82 +1,67 @@
 #square {
-  height: 50px;
-  width: 50px;
-  background-color: orange;
-  position: relative;
-  display: inline-block;
-  z-index: 2;
-  top:540px;
-
+    height: 50px;
+    width: 50px;
+    background-color: orange;
+    position: relative;
+    display: inline-block;
+    z-index: 2;
+    top: 300px;
+    left: 500px;
 }
-
-/*
-#laser {
-height: 30px;
-width: 10px;
-background-color: red;
-position: relative;
-}*/
 
 body {
-  background-color: black;
-  margin-top: 0;
+    background-color: black;
+    margin-top: 0;
+}
+
+.left {
+    display: inline-block;
+    border-left: 400px solid purple;
+    border-bottom: 40px solid transparent;
+    border-top: 20px solid transparent;
+    margin-bottom: 200px;
+    position: relative;
+}
+
+#six {
+    border-left: 500px solid purple;
+    margin-bottom: 300px;
+}
+
+#five {
+    border-right: 400px solid purple;
+}
+
+.right {
+    float: right;
+    display: inline-block;
+    border-right: 600px solid purple;
+    border-bottom: 50px solid transparent;
+    border-top: 50px solid transparent;
+    margin-bottom: 200px;
+    position: relative;
 }
 
 
-
-
-
-
-
-/*.left {
-display: inline-block;
-border-left: 400px solid purple;
-border-bottom: 40px solid transparent;
-border-top:  20px solid transparent;
-margin-bottom: 200px;
-position: relative;
-
-}*/
-#six{
-  border-left: 500px solid purple;
-  margin-bottom: 300px;
-
-}
-
-#five{
-border-right: 400px solid purple;
-
-
-}
-/*.right{
-  float:right;
-  display: inline-block;
-  border-right: 600px solid purple;
-border-bottom: 50px solid transparent;
-border-top:  50px solid transparent;
-margin-bottom: 200px;
-position: relative;
-}*/
-
-#eight{
+/*#eight{
   margin-bottom: 800px;
+}*/
+
+main {
+    border: 2px solid white;
+    height: 600px;
+    width: 70%;
+    margin-left: 200px;
+    display: inline-block;
+    margin-top: 50px;
+    position: relative;
 }
 
-#main{
-  border: 2px solid white;
-  height: 50%;
-  width: 75%;
-  margin-left: 200px;
-position: sticky;
-overflow: hidden;
-display: inline-block;
-
-}
-
-img{
-transform: rotate(90deg);
-/*display: inline-block;
-*/bottom: 1200px;
-position: relative;
-display: none;
+img {
+    transform: rotate(90deg);
+    /*display: inline-block;
+*/
+    bottom: 1200px;
+    position: relative;
+    display: none;
 }

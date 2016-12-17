@@ -1,0 +1,147 @@
+        @keyframes move {
+            0% {
+                margin-right: 0px;
+            }
+            50% {
+                margin-right: 50px;
+            }
+            75% {
+                margin-right: 80px;
+            }
+            100% {
+                margin-right: 0px;
+            }
+        }
+        
+        @keyframes axe {
+            0% {
+                top: 10px;
+                ,
+                margin-left: 0px;
+            }
+            20% {
+                margin-left: 70px
+            }
+            50% {
+                top: 300px;
+                margin-left: 0px;
+            }
+            70% {
+                margin-left: 70px
+            }
+            100% {
+                top: 500px;
+                margin-left: 0px
+            }
+        }
+        
+        @keyframes axe2 {
+            0% {
+                top: 0px;
+                margin-left: 0px;
+            }
+            20% {
+                margin-left: 70px
+            }
+            50% {
+                top: 300px;
+                margin-left: 0px;
+            }
+            70% {
+                margin-left: 70px
+            }
+            100% {
+                top: 500px;
+                margin-left: 0px
+            }
+        }
+        
+        @keyframes spin {
+            100% {
+                transform: rotate(-360deg);
+            }
+        }
+        
+        @keyframes spinmove {
+            100% {
+                margin-right: 123px;
+                transform: rotate(360deg);
+            }
+        }
+        
+        @keyframes rotateup {
+            0% {
+                left: 0px
+            }
+            100% {
+                left: 600px
+            }
+        }
+        
+        @keyframes rotatedown {
+            0% {
+                left: 600px
+            }
+            100% {
+                left: 0px
+            }
+        }
+        
+        @keyframes off {
+            0% {
+                width: 0px
+            }
+            100% {
+                width: 0px;
+            }
+        }
+        
+        @keyframes float {
+            from {
+                float: right;
+            }
+            to {
+                float: left;
+            }
+        }
+        
+        @keyframes stomp {
+            0% {
+                top: -200px
+            }
+            10% {
+                top: 10px;
+                left: 50px;
+            }
+            20% {
+                top: 100px;
+                left: 100px;
+            }
+            30% {
+                top: 10px;
+            }
+            40% {
+                top: -200px;
+                left: 250px;
+            }
+            50% {
+                top: 10px;
+            }
+            60% {
+                top: 100px;
+                left: 300px;
+            }
+            70% {
+                top: 10px;
+                left: 650px;
+            }
+            80% {
+                top: 100px;
+            }
+            90% {
+                top: 10px;
+            }
+            100% {
+                top: -300px;
+            }
+        }

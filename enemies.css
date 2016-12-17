@@ -1,0 +1,94 @@
+.green,
+.blue,
+.red,
+.up,
+.down,
+.off {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.up,
+.down {
+    background-color: purple;
+    position: relative;
+    margin-left: 50px;
+}
+
+.up {
+    animation: rotateup 3s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+.down {
+    animation: rotatedown 3s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+.green {
+    background-color: green;
+    animation: spinmove 2s linear infinite;
+    position: relative;
+}
+
+.blue {
+    animation: move 2s linear infinite;
+    margin-left: 20px;
+    animation-direction: reverse;
+    background-color: blue;
+    transition: 2s all;
+    float: right;
+}
+
+.off {
+    animation: off 2s infinite;
+    background-color: yellow;
+    animation-direction: alternate-reverse;
+    margin-left: 90px;
+}
+
+.red {
+    animation: spin 5s linear infinite;
+    background-color: red;
+    margin-left: 80px;
+}
+
+.left {
+    display: inline-block;
+    border-left: 400px solid teal;
+    border-bottom: 40px solid transparent;
+    border-top: 20px solid transparent;
+    position: relative;
+    animation: axe 3s linear infinite;
+}
+
+.right {
+    transform: rotate(180deg);
+    display: inline-block;
+    border-left: 400px solid teal;
+    border-bottom: 40px solid transparent;
+    border-top: 20px solid transparent;
+    position: relative;
+    left: 200px;
+    animation: axe2 3s linear infinite;
+}
+
+#white {
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    animation: float 2s linear infinite;
+}
+
+#foot {
+    height: 300px;
+    width: 300px;
+    position: relative;
+    top: -200px;
+    animation: stomp 4s linear infinite;
+    display: inline-block;
+    z-index: -2
+}
