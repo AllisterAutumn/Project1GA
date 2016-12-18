@@ -2,7 +2,7 @@ $(document).ready(function() {
 
 
 
-    $('.red, .blue, .green, .up, .down, .off, .white, .footbox, .left, .right').mouseover(function() {
+    $('.red, .blue, .green, .up, .down, .off, .white, .footbox, .left, .right, .foot').mouseover(function() {
         console.log('):');
         document.getElementById("main").scrollTop += 1900;
 

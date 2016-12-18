@@ -42,11 +42,9 @@ $(document).ready(function() {
 
     let foot = new Enemy('foot', 'brown', 'stomp');
 
-    /*$(document).keydown(function() {
-    foot.setPosition($('#foot').offset().left, $('#foot').offset().top);
-    console.log(foot);
-})
-*/
+
+
+
 })
 
 
@@ -62,3 +60,9 @@ $(document).ready(function() {
 /*let one = new Enemy('one', 'green', 'clockwise' );
 console.log(one.setPosition($('#one').offset().left, $('#one').offset().top));
 console.log(one.x,one.y);*/
+
+/*$(document).keydown(function() {
+    foot.setPosition($('#foot').offset().left, $('#foot').offset().top);
+    console.log(foot);
+})
+*/
