@@ -1,78 +1,28 @@
 #square {
-  height: 50px;
-  width: 50px;
-  background-color: orange;
-
-  position: relative;
-  display: inline-block;
-  top:50px;
-
+    height: 100px;
+    width: 100px;
+    position: relative;
+    display: inline-block;
 }
-
-/*
-#laser {
-height: 30px;
-width: 10px;
-background-color: red;
-position: relative;
-}*/
 
 body {
-  background-color: black;
-  margin-top: 0;
+    background-color: #444244;
+    margin-top: 0;
+    background-size: cover;
 }
 
-
-
-
-.left {
-display: inline-block;
-border-left: 400px solid purple;
-border-bottom: 40px solid transparent;
-border-top:  20px solid transparent;
-margin-bottom: 200px;
-position: relative;
-
-}
-#six{
-  border-left: 500px solid purple;
-  margin-bottom: 300px;
-
+#main {
+    height: 700px;
+    width: 75%;
+    margin-left: 200px;
+    overflow: scroll;
+    display: inline-block;
+    overflow-x: hidden;
+    border: 2px solid black;
 }
 
-#five{
-border-right: 400px solid purple;
-
-
+.row {
+    height: 130px;
+    margin-bottom: 50px;
+    position: relative;
 }
-.right{
-  float:right;
-  display: inline-block;
-  border-right: 600px solid purple;
-border-bottom: 50px solid transparent;
-border-top:  50px solid transparent;
-margin-bottom: 200px;
-position: relative;
-
-}
-
-#eight{
-  margin-bottom: 9000px;
-}
-
-#main{
-  border: 2px solid white;
-  height: 700px;
-  width: 75%;
-  margin-left: 200px;
-position: sticky;
-overflow: hidden;
-display: inline-block;
-
-}
-/*img{
-transform: rotate(90deg);
-display: inline-block;
-bottom: 1200px;
-position: relative;
-}*/
