@@ -30,13 +30,13 @@
 
 .green {
     background-color: rgb(32, 247, 60);
-    animation: spinmove 1s linear infinite;
+    animation: spinmove 2s linear infinite;
     animation-direction: alternate-reverse;
     position: relative;
 }
 
 .blue {
-    animation: move 1s linear infinite;
+    animation: move 2s linear infinite;
     margin-left: 20px;
     animation-direction: reverse;
     background-color: #0db3d8;
@@ -45,7 +45,7 @@
 }
 
 .off {
-    animation: off 2s infinite;
+    animation: off 3s infinite;
     background-color: black;
     animation-direction: alternate-reverse;
     margin-left: 90px;
@@ -77,14 +77,14 @@
     animation: axe2 3s linear infinite;
 }
 
-#white {
+.white {
     background-color: #a2e8e1;
     height: 50px;
     width: 50px;
     animation: float 2s linear infinite;
 }
 
-#foot {
+.foot {
     height: 300px;
     width: 300px;
     position: relative;
@@ -94,7 +94,7 @@
     z-index: -2
 }
 
-#footbox {
+.footbox {
     animation: stomp 3s linear infinite;
     position: relative;
     height: 400px;
@@ -103,6 +103,7 @@
 
 button {
     margin-left: 500px;
+    top: 30px;
     background-color: black;
     color: red;
     position: relative;
