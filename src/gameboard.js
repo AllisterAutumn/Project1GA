@@ -1,6 +1,7 @@
 $(document).ready(function() {
 
-
+//This file controls the 'lose' function in my game. If a div is mousedover, then the player will be alerted and sent back to the beginning 
+    //of the board
 
     $('.red, .blue, .green, .up, .down, .off, .white, .footbox, .left, .right, .foot').mouseover(function() {
         console.log('):');
