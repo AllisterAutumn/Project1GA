@@ -1,6 +1,7 @@
 $(document).ready(function() {
 
-
+//This page holds the main player class constructor. This page is meaningless to my game now, but I worked so hard on it,
+    //and it's functional, so I didn't want to scrap it.
 
     let Hero = {
         id: "square",
