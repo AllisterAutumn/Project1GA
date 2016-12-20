@@ -1,5 +1,5 @@
 $(document).ready(function() {
-
+//This page holds the class constructor for all my enemies and is able to log their animation, color, and position.
 
 
     class Enemy {
